@@ -11,7 +11,7 @@ const TeamsScreen = ({ navigation }) => {
   const [teams, setTeams] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [playerCounts, setPlayerCounts] = useState({});
-  
+   
   // Load teams from storage
   useEffect(() => {
     const loadTeams = async () => {
