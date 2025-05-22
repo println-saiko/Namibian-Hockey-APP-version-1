@@ -6,7 +6,7 @@ import Card from '../components/Card';
 import Button from '../components/Button';
 import Colors from '../constants/colors';
 import { getTeams, getPlayers } from '../utils/storage';
-
+ 
 const TeamDetailsScreen = ({ route, navigation }) => {
   const { teamId } = route.params;
   
